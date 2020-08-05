@@ -1,0 +1,22 @@
+{
+  "name": "react-native-animated-box",
+  "version": "0.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Michael Moon",
+    "email": "lpohe01@gmail.com",
+    "url": "https://gippleup.github.io"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.9.44",
+    "@types/react-native": "^0.63.4",
+    "react": "^16.13.1",
+    "react-native": "^0.63.2"
+  }
+}
