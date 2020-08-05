@@ -44,13 +44,14 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AnimatedBox = void 0;
-var react_1 = __importStar(require("react"));
+var React = __importStar(require("react"));
+var react_1 = require("react");
 var react_native_1 = require("react-native");
 var AnimatedBox = /** @class */ (function (_super) {
     __extends(AnimatedBox, _super);
     function AnimatedBox(props) {
         var _this = _super.call(this, props) || this;
-        _this.boxRef = react_1.default.createRef();
+        _this.boxRef = React.createRef();
         _this.animations = {};
         _this.style = __assign({}, _this.props.style);
         _this.transforms = {
